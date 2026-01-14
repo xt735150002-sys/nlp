@@ -38,6 +38,7 @@ def main():
     # mypy使用导入的版本变量
     print(f"mypy: {mypy_version}")
     print(f"scikit-learn (sklearn): {sklearn.__version__}")
+    print(f"np.version: {np.version.version}")
 
 if __name__ == "__main__":
     main()
